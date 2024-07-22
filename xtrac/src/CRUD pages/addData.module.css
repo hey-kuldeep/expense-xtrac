@@ -1,0 +1,102 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/money.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.mainSection{
+    margin-top: 100px;
+    height: 70vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 100px 1px rgb(144, 31, 250);
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.formsection{
+    height: 100%;
+    width: 61%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    flex-direction: column;
+    gap: 30px;
+    opacity: 0.9;
+    z-index: 2;
+    border: 2px solid white;
+
+}
+
+.formsection h1{
+    color: white;
+}
+
+
+.formsection:hover {
+    border: none;
+  }
+
+.formsection form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+.formsection input,textarea,select{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.287);
+    /* color: white; */
+    font-size: small;
+    font-weight: 800;
+    color: white;
+}
+
+option{
+    color: blueviolet;
+}
+
+.formsection textarea,input:focus {
+    outline: none;
+    box-shadow: 3px 3px 10px 2px black;
+}
+
+.formsection button {
+    padding: 8px;
+    width: 80px;
+    font-weight: 800;
+    border: none;
+    border-radius: 3px;
+    transition: width 0.5s, background-color 2s, letter-spacing 1s;
+}
+
+.formsection button:hover {
+    background-color: black;
+    padding: 8px;
+    width: 90px;
+    transition: width 1s, background-color 1s, letter-spacing 1s;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }

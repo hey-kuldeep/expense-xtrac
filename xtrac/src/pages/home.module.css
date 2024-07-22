@@ -1,0 +1,126 @@
+/* Home.module.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation styles */
+.navbar {
+    width: 100vw;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 1px solid rgb(119, 9, 222);
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    gap: 900px;
+}
+
+.navbarContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.navbarContent h1 span {
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
+
+.navbarContent h1:hover {
+    color: black;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header a {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.header a:hover,
+.header a:active {
+    color: #061161;
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    margin-top: 100px;
+    height: 400px;
+    width: 1100px;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.box1 {
+    border-radius: 10px;
+}
+
+.box2 {
+    border: 2px solid blueviolet;
+    width: 55%;
+    border-radius: 15px 0px 0px 15px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box2 h1 {
+    color: white;
+}
+
+.box2 p {
+    padding: 10px;
+    color: white;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.box2 button {
+    width: 130px;
+    padding: 8px;
+    transition: none;
+    font-weight: 800;
+    border:1px solid white;
+    border-radius: 3px;
+    transition: width 0.5s, background-color 2s, letter-spacing 1s;
+}
+
+.box2 button:hover {
+    letter-spacing: 0px;
+    background-color: black;
+    color: white;
+    opacity: none;
+    transition: all 0.6s ease-in-out;
+}

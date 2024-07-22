@@ -1,0 +1,88 @@
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table th,
+  .table td {
+    padding: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .button {
+    margin: 5px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button.update {
+    background-color: #28a745;
+  }
+  
+  .button.update:hover {
+    background-color: #0f3d19;
+  }
+  
+  .button.delete {
+    background-color: #dc3545;
+  }
+  
+  .button.delete:hover {
+    background-color: #72131d;
+  }
+  

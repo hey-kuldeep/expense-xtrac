@@ -1,0 +1,98 @@
+/* home2.module.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-title {
+    color: #192baf;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home-title span {
+    font-size: larger;
+}
+
+.home-section {
+    height: 400px;
+    width: 90vw;
+    background-color: azure;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-box1 {
+    border: 2px solid black;
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.home-box1>h1{
+    font-size: 30px;
+}
+
+.home-box1 >ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.home-box2 {
+    width: 50%;
+    height: 395px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-weight: 700;
+}
+
+.home-box2>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.home-box2>ul>li:hover{
+    list-style: none;
+}
+
+.home-box2>ul>li>a:hover{
+    text-decoration: none;
+    color: #192baf;
+}
+
+.navlink{
+    text-decoration: underline;
+    color: blueviolet;
+    cursor: pointer;
+}

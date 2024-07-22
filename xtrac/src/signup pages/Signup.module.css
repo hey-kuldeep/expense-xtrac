@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+@keyframes bgcolor {
+  0%,50%,100% {
+    background: blueviolet;
+    background: linear-gradient(to left, #02149f, rgb(133, 26, 232));
+  }
+  25%,75% {
+    background: blueviolet;
+    background: linear-gradient(to right, #061161, blueviolet);
+  }
+}
+
+.anchor{
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  animation-name: bgcolor;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.name:hover {
+  font-size: 50px;
+}
+
+.formsection input[type=radio]{
+  height: 14px;
+  width: 100px;
+}
+
+.formsection input[type="checkbox"] {
+  width: 20px; 
+  height: 20px; 
+  border: 1px solid #999; 
+ padding: 10px;
+} 
+ 
+.formsection label {
+  cursor: pointer; 
+  font-size: 16px; 
+  padding: 10px;
+}
+
+.formsection {
+  border-radius: 10px;
+  width: 70%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.215);
+  color: white;
+}
+
+.formsection p {
+  color: blue;
+  font-weight: 800;
+}
+
+.formsection h1 {
+  color: #061161;
+  font-size: 35px;
+}
+
+.formsection h1:hover {
+  color: blueviolet;
+  font-size: 35px;
+}
+
+.formsection span {
+  color: rgb(68, 0, 132);
+}
+
+.formsection span:hover {
+  color: #061161;
+}
+
+.formsection:hover {
+  box-shadow: 3px 3px 100px 10px black;
+}
+
+.formsection input {
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.287);
+  color: white;
+  font-size: medium;
+  font-weight: 800;
+}
+
+.formsection input:focus {
+  outline: none;
+  box-shadow: 3px 3px 10px 2px black;
+}
+
+.formsection form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formsection button {
+  padding: 8px;
+  width: 80px;
+  font-weight: 800;
+  border: none;
+  border-radius: 3px;
+  transition: width 0.5s, background-color 2s, letter-spacing 1s;
+}
+
+.formsection button:hover {
+  background-color: rgba(172, 255, 47, 0.576);
+  padding: 8px;
+  width: 90px;
+  transition: width 1s, background-color 1s, letter-spacing 1s;
+  border-radius: 3px;
+  border: none;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
